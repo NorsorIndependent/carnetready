@@ -1,9 +1,5 @@
-
-  "@types/react": "18.2.66",
-  "@types/node": "20.12.12"
-}
 {
-  "name": "carnetready-ts",
+  "name": "carnetready",
   "version": "0.1.2",
   "private": true,
   "scripts": {
@@ -20,6 +16,8 @@
     "autoprefixer": "10.4.19",
     "postcss": "8.4.38",
     "tailwindcss": "3.4.9",
-    "typescript": "5.4.5"
+    "typescript": "5.4.5",
+    "@types/react": "18.2.66",
+    "@types/node": "20.12.12"
   }
 }
