@@ -1,3 +1,7 @@
+
+  "@types/react": "18.2.66",
+  "@types/node": "20.12.12"
+}
 {
   "name": "carnetready-ts",
   "version": "0.1.2",
