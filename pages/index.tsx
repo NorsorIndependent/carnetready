@@ -9,6 +9,13 @@ export default function Home() {
     setUploading(true)
     const res = await fetch('/api/submit', { method: 'POST', body: data })
     const json = await res.json()
+    async function buyNow() {
+  const r = await fetch('/api/checkout', { method: 'POST' })
+  const j = await r.json()
+  if (j.url) window.location.href = j.url
+<button onClick={buyNow} className="ml-3 inline-block px-4 py-2 bg-black text-white rounded-lg">
+  Purchase Per-Pack ($29)
+</button>
     setUploading(false)
     setMessage(json.message)
   }
